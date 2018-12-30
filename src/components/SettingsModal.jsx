@@ -16,7 +16,7 @@ class SettingsModal extends Component {
     }, () =>{console.log("SettingsModal state " + this.state.modal)});
     this.props.handleModalClose();
   }
-
+  
   componentWillReceiveProps(nextProps) {
     
     this.setState({modal: nextProps.modalState});
